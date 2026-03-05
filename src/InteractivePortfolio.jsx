@@ -1038,9 +1038,14 @@ function Hero() {
           <ArcadeButton href="#contact">
             <Mail size={14} /> CONTACT
           </ArcadeButton>
-          <ArcadeButton href={DATA.links.resume} external>
+          <a 
+            href="/mon-portfolio/mon-cv.pdf" 
+            target="_blank" 
+            rel="noreferrer"
+            className="btn-arcade inline-flex items-center gap-2 rounded-md px-4 py-2 text-[10px] font-press tracking-widest"
+          >
             <Download size={14} /> CV
-          </ArcadeButton>
+          </a>
         </div>
       </motion.div>
 
