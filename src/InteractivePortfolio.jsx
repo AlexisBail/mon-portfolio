@@ -491,7 +491,7 @@ const DATA = {
     github: "https://github.com/",
     linkedin: "https://www.linkedin.com/",
     email: "mailto:contact@example.com",
-    resume: "mon-cv.pdf", // lien vers ton CV
+    resume: "/mon-portfolio/mon-cv.pdf", // lien vers ton CV
   },
   skills: [
     "TypeScript",
